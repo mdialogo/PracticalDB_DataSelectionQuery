@@ -37,13 +37,13 @@ namespace PracticalDB_DataSelectionQuery
         }
         private void cmdExit_Click(object sender, EventArgs e)
         {
-            //LogInForm logForm = new LogInForm();
-            //logForm = logForm.getLogInForm();
-            //logForm.Close();
+            LogInForm logForm = new LogInForm();
+            logForm = logForm.getLogInForm();
+            logForm.Close();
             //courseForm.Close();
-            //facultyForm.Close();
+            facultyForm.Close();
             //studentForm.Close();
-            //Application.Exit();
+            Application.Exit();
         }
     }
 }
